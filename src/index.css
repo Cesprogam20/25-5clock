@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
+:root {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.5;
+  margin: 0px;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-image: url(https://3.bp.blogspot.com/-J-ktVX87VaM/UcWrEOx77KI/AAAAAAAB02I/nJqBTRLhIf8/s1600/atardecer-en-paisaje-con-monta%C3%B1as-nevadas.jpg);
+  background-size: cover;
+  font-weight: 600;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1{
+  margin: 0px;
+}
+#container{
+  height: 10%;
+}
+.display{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container{
+  margin: 15px;
+}
+#container2{
+  border: 2px solid rgb(0, 0, 0);
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+p{
+  font-size: 25px;
+}
+button{
+  padding: 10px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+}
+.button2{
+  height: 10%;
+  align-self: center;
+  border-radius: 10px;
+}
+.pointer{
+  cursor: pointer;
+}
+.principal{
+  background: rgba(255, 255, 255, 0.781);
+  backdrop-filter: blur(1px);
+  width: 40%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px 10px;
+}
+#icons{
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.img{
+  width: 20%;
+  height: auto;
+}
+.background{
+  color: rgb(230, 94, 94);
+}
+@media (max-width:1100px) {
+  .principal{
+    width: 95%;
+  }
+  #container2{
+    width: 80%;
+  }
+  p{
+    font-size: 20px;
+  }
+  img{
+    width: 10%;
+  }
+  .container{
+    margin: 5px;
+  }
+}
